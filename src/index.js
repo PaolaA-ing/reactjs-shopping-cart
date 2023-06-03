@@ -18,7 +18,7 @@ let store = createStore(
     {
         products: productsData // initial store values
     },
-    window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__() // for debugging
+   
 );
 
 render(
